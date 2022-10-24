@@ -83,7 +83,7 @@ void findHighest(double sale1, double sale2, double sale3, double sale4)
     else if ((sale2 > sale1) && (sale2 > sale3) && (sale2 > sale4))
     {
         cout << "Highest-Grossing Division: Southeast" << endl;
-        cout << "Sales: " << sale1;
+        cout << "Sales: " << sale2;
     }
     else if ((sale3 > sale1) && (sale3 > sale2) && (sale3 > sale4))
     {
