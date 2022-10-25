@@ -9,6 +9,7 @@ double celsius(double temperature);
 
 int main()
 {
+    // Double values are rounded to 2 d.p
     cout << setprecision(2) << fixed << showpoint;
     for (int i = 0; i <= 20; i++)
         cout << i << "˚F is equivalent to " << celsius(i) << "˚C." << endl;
