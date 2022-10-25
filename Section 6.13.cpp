@@ -24,6 +24,7 @@ int main()
 void coinToss()
 {
     int number;
+    // Generates random integers
     number = rand() % 2;
 
     if (number == 0)
